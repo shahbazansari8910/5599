@@ -1,0 +1,21 @@
+{
+  "name": "ultra-safe-system",
+  "version": "1.0.0",
+  "description": "Secure Facebook automation with auto-recovery & encryption",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "fca-mafiya": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
